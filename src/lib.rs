@@ -265,6 +265,20 @@ pub struct StreamTags {
     pub encoder: Option<String>,
     pub timecode: Option<String>,
     pub reel_name: Option<String>,
+    pub album_artist: Option<String>,
+    pub title: Option<String>,
+    pub date: Option<String>,
+    pub encodedby: Option<String>,
+    pub album: Option<String>,
+    pub genre: Option<String>,
+    pub copyright: Option<String>,
+    pub comment: Option<String>,
+    pub disc: Option<String>,
+    pub disctotal: Option<String>,
+    pub tracktotal: Option<String>,
+    pub track: Option<String>,
+    pub woas: Option<String>,
+    pub isrc: Option<String>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, serde::Serialize, serde::Deserialize)]
